@@ -59,7 +59,7 @@ $(document).on("click", "button", function() {
   // Create variables for image and URL
   // Get 10 images from Giphy
   var image = $(this).attr("id");
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + image + "&api_key=dc6zaTOxFJmzC&limit=10";
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + image + "&api_key=dc6zaTOxFJmzC&limit=10";
 
   $.ajax({
   	url: queryURL, // var queryURL 名前を合わせる。もしvar urlならばurl: url
