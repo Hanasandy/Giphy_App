@@ -1,0 +1,9 @@
+.newDiv{
+  float:left;
+}
+img{
+  width: 300px;
+  height:250px;
+  margin: 15px;
+  border-radius: 4px;
+}
